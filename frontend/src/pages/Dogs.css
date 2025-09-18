@@ -1,0 +1,17 @@
+.dogs-kontener {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.sidebar-kontener {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.5em;
+}
+
+.sidebar-kontener a {
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+}

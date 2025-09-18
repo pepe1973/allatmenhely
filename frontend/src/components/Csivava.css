@@ -1,0 +1,17 @@
+.tartalom-kontener {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.csivava-kep-kontener {
+    margin: auto;
+    width: 80%;
+}
+
+.csivava-kep-kontener img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}

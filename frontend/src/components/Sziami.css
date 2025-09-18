@@ -1,0 +1,17 @@
+.tartalom-kontener {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.sziami-kep-kontener {
+    margin: auto;
+    width: 80%;
+}
+
+.sziami-kep-kontener img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
