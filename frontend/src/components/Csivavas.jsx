@@ -3,8 +3,8 @@ import Csivava from "./Csivava";
 // import adatok from '../../public/js/adatok';
 
 const Csivavas = () => {
-    let [csivavaItems, setCsivavaItems] = useState([]);
-    let tomb = [];
+  let [csivavaItems, setCsivavaItems] = useState([]);
+  let tomb = [];
 
     useEffect(() => {
         const szerverrolBetolt = async () => {
@@ -29,11 +29,11 @@ const Csivavas = () => {
         
     }, []);
 
-    return (
-        <div>
-            <div className="main-kontener">{csivavaItems}</div>;
-        </div>
-    );
-}
+  return (
+    <div>
+      <div className="main-kontener">{csivavaItems}</div>;
+    </div>
+  );
+};
 
 export default Csivavas;
