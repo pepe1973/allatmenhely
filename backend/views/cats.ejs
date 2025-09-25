@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macskák</title>
+</head>
+<body>
+    <%- include('nav.ejs') %>
+    <div id="macskak-kontener">
+        <h1>Macskák</h1>
+        <ul>
+            <% cats.forEach(elem => { %>
+                <div class="macska-kontener">
+                    <h3>Macska neve: <%= elem.nev %></h3>
+                    <p>Macska fajta: <%= elem.fajta %></p>
+                    <p>Macska neme: <%= elem.neme %></p>
+                    <p>Macska kora: <%= elem.kor %></p>
+                    <% if (elem.ivartalanitott) { %>
+                        <p>Ivartalanitott: igen</p>
+                    <% } else { %>
+                        <p>Ivartalanitott: nem</p>
+                    <% } %>
+                </div>
+            <% }) %>
+        </ul>
+    </div>
+</body>
+</html>

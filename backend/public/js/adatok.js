@@ -1,6 +1,6 @@
-import kep01 from '/images/kep01.jpg';
-import kep02 from '/images/kep02.jpg';
-import kep03 from '/images/kep03.jpg';
+const kep01 = '/images/kep01.jpg';
+const kep02 = '/images/kep02.jpg';
+const kep03 = '/images/kep03.jpg';
 
 let adatok = [
     {
@@ -20,4 +20,4 @@ let adatok = [
     },
 ];
 
-export default adatok;
+module.exports = adatok;
